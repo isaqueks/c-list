@@ -1,0 +1,1 @@
+gcc -g main.c list.c -o main.exe
