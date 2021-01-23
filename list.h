@@ -23,5 +23,6 @@ void list_addSpace(List *list, unsigned int objectCount);
 void list_add(List *list, void *object_ptr);
 void *list_get(List *list, int index);
 void list_remove_at(List* list, int index);
+void list_set(List* list, int index, void* value);
 
 #endif
