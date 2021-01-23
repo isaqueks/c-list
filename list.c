@@ -41,3 +41,8 @@ void list_remove_at(List* list, int index) {
 
     list->usedLength--;
 }
+
+void list_set(List* list, int index, void* value) {
+    void* ptr = list_get(list, index);
+    memcpy(ptr, value, list->objectSize);
+}
