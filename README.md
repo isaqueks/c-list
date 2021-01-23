@@ -21,3 +21,7 @@ Methods are:
 ### Removing item from index:
     
     void list_remove_at(List* list, int index);
+
+### Setting item value from index:
+
+    void list_set(List* list, int index, void* value);
